@@ -1,0 +1,166 @@
+/* Base Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(34, 34, 34, 0.342); /* Dark gray background */
+    color: rgb(255, 255, 255); /* Light text */
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: rgba(33, 36, 40, 0.85); /* Blue with transparency */
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1); /* Light border */
+}
+
+.nav-link {
+    color: rgba(255, 255, 255, 0.9) !important; /* White with slight transparency */
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.nav-link:hover {
+    color: rgba(255, 204, 0, 0.9) !important; /* Yellow on hover */
+}
+
+.navbar-brand img {
+    border-radius: 50%;
+    border: 2px solid rgba(156, 62, 62, 0.6); /* White border for brand logo */
+}
+
+/* Section Styling */
+section {
+    padding: 60px 0;
+    background-color: rgba(44, 44, 44, 0.9); /* Darker background for sections */
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: rgba(0, 123, 255, 0.9); /* Blue for section headings */
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-bottom: 2px solid rgba(255, 204, 0, 0.9); /* Yellow underline */
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+p {
+    font-size: 1.1rem;
+    color: rgba(201, 86, 86, 0.8); /* Light text with transparency */
+    line-height: 1.6;
+}
+
+/* Features Section */
+#features i {
+    color: rgba(255, 204, 0, 0.8); /* Yellow for icons */
+    font-size: 3rem;
+    transition: color 0.3s ease;
+}
+
+#features i:hover {
+    color: rgba(0, 123, 255, 0.8); /* Blue on hover */
+}
+
+#features h4 {
+    color: rgba(255, 255, 255, 0.9); /* Light text */
+    font-size: 1.5rem;
+    margin-top: 15px;
+}
+
+/* Services Section */
+#services {
+    background-color: rgba(34, 34, 34, 0.95); /* Darker section background */
+}
+
+#services .col-md-4 {
+    transition: transform 0.3s ease;
+    background-color: rgba(0, 123, 255, 0.7); /* Blue with transparency */
+    color: rgba(255, 255, 255, 0.9); /* Light text */
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#services .col-md-4:hover {
+    transform: scale(1.05);
+    background-color: rgba(255, 204, 0, 0.8); /* Yellow on hover */
+    color: rgba(0, 0, 0, 0.9); /* Dark text */
+}
+
+/* Testimonials */
+#testimonials blockquote {
+    background: rgba(0, 123, 255, 0.8); /* Blue background */
+    border-left: 5px solid rgba(255, 204, 0, 0.8); /* Yellow border */
+    padding: 20px;
+    color: rgba(255, 255, 255, 0.9); /* Light text */
+    font-style: italic;
+    transition: background 0.3s ease;
+}
+
+#testimonials blockquote:hover {
+    background: rgba(255, 204, 0, 0.9); /* Yellow on hover */
+    color: rgba(0, 0, 0, 0.9); /* Dark text */
+}
+
+/* Contact Section */
+#contact {
+    background-color: rgba(34, 34, 34, 0.95); /* Dark background */
+    color: rgba(255, 255, 255, 0.9); /* Light text */
+}
+
+#contact .form-control {
+    background-color: rgba(44, 44, 44, 0.95); /* Slightly lighter gray */
+    border: none;
+    color: rgba(255, 255, 255, 0.9); /* Light text */
+    border-radius: 5px;
+}
+
+#contact .form-control:focus {
+    border-color: rgba(255, 204, 0, 0.9); /* Yellow border on focus */
+    box-shadow: 0 0 5px rgba(255, 204, 0, 0.9); /* Yellow glow */
+}
+
+#contact button {
+    background-color: rgba(255, 204, 0, 0.9); /* Yellow background */
+    color: rgba(34, 34, 34, 0.9); /* Dark text */
+    border: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+}
+
+#contact button:hover {
+    background-color: rgba(0, 123, 255, 0.9); /* Blue on hover */
+    color: rgba(255, 255, 255, 0.9); /* White text */
+}
+
+/* Footer */
+footer {
+    background-color: rgba(24, 24, 24, 0.9); /* Dark footer */
+    color: rgba(255, 255, 255, 0.9); /* Light text */
+    padding: 20px 0;
+}
+
+footer p {
+    margin-bottom: 0;
+    color: rgba(255, 255, 255, 0.7); /* Slightly transparent text */
+}
+
+footer a {
+    color: rgba(255, 204, 0, 0.9); /* Yellow links */
+}
+
+footer a:hover {
+    color: rgba(255, 255, 255, 0.9); /* White on hover */
+}
+
+/* Add subtle hover effects for icons */
+footer i {
+    transition: color 0.3s ease;
+}
+
+footer i:hover {
+    color: rgba(0, 123, 255, 0.9); /* Blue on hover */
+}
